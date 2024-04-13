@@ -52,7 +52,12 @@ display: none;
 z-index: 30;
 }
 
-
+#intro {
+    background-image: url('img/shutterstock_396213982_9e88ef51ab.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
 
 .cc {
     min-height: 100vh;
