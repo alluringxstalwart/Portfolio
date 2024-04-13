@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="scritpt.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Paras Deshmukh | Portfolio</title>
+
+</head>
+
+<body>
+
+    <div class="window flex w-full min-h-screen h-auto">
+
+        <div id="aside" class="aside fixed  h-screen w-full md:w-72 z-30 overflow-auto  ">
+            <div class="side flex flex-col w-full">
+                <div id="tside " class="hidden  lg:flex p-8 ">
+
+                </div>
+                <div class="bside flex flex-col p-4 gap-4 rounded-lg ">
+                    <div id="close_menu" class="block lg:hidden z-10  absolute right-0 top-0 p-5">
+                        <div id="cross">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="lucide lucide-x">
+                                <path d="M18 6 6 18" />
+                                <path d="m6 6 12 12" />
+                            </svg>
+                        </div>
+                    </div>
+                    <a href="/" class="flex px-2 py-2 items-center gap-4 transition duration-200">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-home">
+                            <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+                            <polyline points="9 22 9 12 15 12 15 22" />
+                        </svg>
+                        Home</a>
+                    <a href="/" class="flex px-2 py-2 items-center gap-4 transition duration-200">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-file">
+                            <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" />
+                            <path d="M14 2v4a2 2 0 0 0 2 2h4" />
+                        </svg>
+                        Resume</a>
+                    <a href="#projects" class="flex px-2 py-2 items-center gap-4 transition duration-200">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-folder-kanban">
+                            <path
+                                d="M4 20h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.93a2 2 0 0 1-1.66-.9l-.82-1.2A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13c0 1.1.9 2 2 2Z" />
+                            <path d="M8 10v4" />
+                            <path d="M12 10v2" />
+                            <path d="M16 10v6" />
+                        </svg>
+                        Projects</a>
+
+
+                    <a href="#blogs" class="flex px-2 py-2 items-center gap-4 transition duration-200">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-library">
+                            <path d="m16 6 4 14" />
+                            <path d="M12 6v14" />
+                            <path d="M8 8v12" />
+                            <path d="M4 4v16" />
+                        </svg>
+                        Blogs</a>
+
+
+                    <a href="/" class="flex px-2 py-2 items-center gap-4 transition duration-200">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-database">
+                            <ellipse cx="12" cy="5" rx="9" ry="3" />
+                            <path d="M3 5V19A9 3 0 0 0 21 19V5" />
+                            <path d="M3 12A9 3 0 0 0 21 12" />
+                        </svg>
+                        Datasets</a>
+
+
+
+                    <div class="m-2">Socials</div>
+                    <a href="https://www.linkedin.com/in/alluringxstalwart/" target="_blank"
+                        class="flex px-2 py-2 items-center gap-4 transition duration-200">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-linkedin">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                            <rect width="4" height="12" x="2" y="9" />
+                            <circle cx="4" cy="4" r="2" />
+                        </svg>
+                        LinkedIn</a>
+                    <a href="https://github.com/alluringxstalwart" target="_blank"
+                        class="flex px-2 py-2 items-center gap-4"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github">
+                            <path
+                                d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4" />
+                            <path d="M9 18c-4.51 2-5-2-7-2" />
+                        </svg>
+                        Github</a>
+                    <a href="https://www.kaggle.com/alluringxstalwart" target="_blank"
+                        class="flex px-2 py-2 items-center gap-4 transition duration-200">
+
+                        <!-- License: MIT. Made by Icons8: https://github.com/icons8/line-awesome -->
+                        <svg width="24px" height="24px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M 10.351562 4 C 10.117563 4 10 4.1165625 10 4.3515625 L 10 27.644531 C 10 27.878531 10.116563 27.996094 10.351562 27.996094 L 12.648438 27.996094 C 12.882437 27.996094 13.001953 27.879531 13.001953 27.644531 L 13.001953 22.808594 L 14.810547 21.085938 L 20.048828 27.75 C 20.190828 27.915 20.354922 28 20.544922 28 L 23.716797 28 C 23.882797 28 23.977 27.952422 24 27.857422 L 23.933594 27.498047 L 17.023438 18.910156 L 23.650391 12.498047 C 23.773391 12.370047 23.730438 12 23.398438 12 L 20.117188 12 C 19.951187 12 19.785141 12.085953 19.619141 12.251953 L 13 18.974609 L 13 4.3515625 C 13 4.1165625 12.883437 4 12.648438 4 L 10.351562 4 z" />
+                        </svg>
+                        Kaggle</a>
+                    <a href="/" class="flex px-2 py-2 items-center gap-4 transition duration-200"><svg xmlns="http://www.w3.org/2000/svg"
+                            width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-youtube">
+                            <path
+                                d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17" />
+                            <path d="m10 15 5-3-5-3z" />
+                        </svg>
+                        Youtube</a>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="main flex flex-col  w-screen  min-h-screen  ">
+
+            <div class="nav sticky top-0 flex flex-row  justify-between items-center p-4 ">
+                <div>
+
+                    <div id="menu" class="mx-3 lg:hidden cursor-pointer">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-menu">
+                            <line x1="4" x2="20" y1="12" y2="12" />
+                            <line x1="4" x2="20" y1="6" y2="6" />
+                            <line x1="4" x2="20" y1="18" y2="18" />
+                        </svg>
+                    </div>
+
+                </div>
+
+                <div id="contact" class="flex flex-row items-center rounded mx-3  cursor-pointer  p-1 px-3"
+                    style="background-color: rgb(31 77 62 / 77%);">
+                    <div class="text-slate-100 text-base font-sans">
+                        Get in Touch
+                    </div>
+                    <div class="pl-2">
+                        <svg class="stroke-slate-50" xmlns="http://www.w3.org/2000/svg" width="22" height="22"
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25"
+                            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail">
+                            <rect width="20" height="16" x="2" y="4" rx="2" />
+                            <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+                        </svg>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="mbody flex flex-col justify-between items-center p-4 pt-0 ">
+
+                <div class=" flex flex-row items-center justify-around  p-2 w-full" style="height: 50vh;">
+
+
+                    <div id="intro" class="rounded-lg shadow-lg intro flex flex-row items-center justify-around w-full h-full  ">
+                        <div class=" flex flex-col items-left m-4">
+                            <span id="name" class="text-4xl font-extrabold text-slate-100">
+                                Paras Deshmukh
+                            </span>
+                            <span id="desig" class="text-2xl text-gray-600">
+                                Data Analyst
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class=" p-4 w-full height-full">
+
+                    <div id="skills" class="skills flex flex-col justify-start pt-4">
+                        <span class=" tit text-2xl font-bold text-gray-800 mb-7 ">Key Proficiencies</span>
+                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+                            <div class="skillcard flex-1 flex flex-col gap-4  p-4 rounded-md shadow-lg">
+                                <div class="text-primary font-medium text-lg tracking-wider">Programming</div>
+                                <div class="flex flex-wrap gap-2">
+                                    <div class="rounded-md bg-body text-sm text-gray-50 p-2 border border-slate-900">
+                                        Python</div>
+                                    <div class="rounded-md bg-body text-sm text-gray-50 p-2 border border-slate-900">
+                                        NumPy</div>
+                                    <div class="rounded-md bg-body text-sm text-gray-50 p-2 border border-slate-900">
+                                        Pandas</div>
+                                    <div class="rounded-md bg-body text-sm text-gray-50 p-2 border border-slate-900">
+                                        Scikit-Learn</div>
+                                </div>
+
+                            </div>
+                            <div class="skillcard flex-1 flex flex-col gap-4  p-4 rounded-md shadow-lg">
+                                <div class="text-primary font-medium text-lg tracking-wider">Data Visualization</div>
+                                <div class="flex flex-wrap gap-2">
+                                    <div class="rounded-md bg-body text-sm text-gray-50 p-2 border border-slate-900">
+                                        Matplotlib
+                                    </div>
+                                    <div class="rounded-md bg-body text-sm text-gray-50 p-2 border border-slate-900">
+                                        Seaborn
+
+                                    </div>
+                                    <div class="rounded-md bg-body text-sm text-gray-50 p-2 border border-slate-900">
+                                        Tableau
+                                    </div>
+                                    <div class="rounded-md bg-body text-sm text-gray-50 p-2 border border-slate-900">
+                                        Power BI</div>
+                                </div>
+
+                            </div>
+                            <div class="skillcard flex-1 flex flex-col gap-4  p-4 rounded-md shadow-lg">
+                                <div class="text-primary font-medium text-lg tracking-wider">Database</div>
+                                <div class="flex flex-wrap gap-2">
+                                    <div class="rounded-md bg-body text-sm text-gray-50 p-2 border border-slate-900">SQL
+                                    </div>
+                                    <div class="rounded-md bg-body text-sm text-gray-50 p-2 border border-slate-900">
+                                        MySQL
+                                    </div>
+                                    <div class="rounded-md bg-body text-sm text-gray-50 p-2 border border-slate-900">
+                                        Google BigQuery</div>
+                                </div>
+                            </div>
+                            <div class="skillcard flex-1 flex flex-col gap-4  p-4 rounded-md shadow-lg">
+                                <div class="text-primary font-medium text-lg tracking-wider">Others</div>
+                                <div class="flex flex-wrap gap-2">
+                                    <div class="rounded-md bg-body text-sm text-gray-50 p-2 border border-slate-900">MS
+                                        Excel
+                                    </div>
+                                    <div class="rounded-md bg-body text-sm text-gray-50 p-2 border border-slate-900">
+                                        Google Sheets
+                                    </div>
+                                    <div class="rounded-md bg-body text-sm text-gray-50 p-2 border border-slate-900">
+                                        HTML
+                                    </div>
+                                    <div class="rounded-md bg-body text-sm text-gray-50 p-2 border border-slate-900">CSS
+                                    </div>
+                                    <div class="rounded-md bg-body text-sm text-gray-50 p-2 border border-slate-900">
+                                        JavaScript
+
+                                    </div>
+                                    <div class="rounded-md bg-body text-sm text-gray-50 p-2 border border-slate-900">
+                                        TensorFlow
+
+                                    </div>
+                                    <div class="rounded-md bg-body text-sm text-gray-50 p-2 border border-slate-900">
+                                        OpenCV
+
+                                    </div>
+                                    <div class="rounded-md bg-body text-sm text-gray-50 p-2 border border-slate-900">
+                                        NLTK
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cc p-4 w-full height-full">
+                    <div id="projects" class="projects flex flex-col  pt-12 ">
+                        <span class=" tit text-2xl font-bold text-gray-800 mb-4 ">Projects</span>
+                        <div class="procont">
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="cc p-4 w-full height-full">
+
+                    <div id="blogs" class="blogs flex flex-row justify-start pt-12">
+                        <span class=" tit text-2xl font-bold text-gray-800 mb-4 ">Blogs</span>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
