@@ -49,7 +49,7 @@ body {
 
 .aside {
 /* background-color: rgb(152 177 134); */
-/* background-color:#b6c8a9 ; */
+background-color:#b6c8a9 ;
 
 display: none;
 z-index: 30;
@@ -86,7 +86,9 @@ background-color:#b6c8a9 ;
     #aside {
         display: flex !important;
         max-width: 10rem;
+        background-color: transparent;
     }
+    
 
     .main {
         padding-left: 10rem;
