@@ -42,22 +42,31 @@ body {
 
 .window {
     /* background-color: #b6c8a9; */
-    background-color: rgb(152 177 134);
+    /* background-color: rgb(152 177 134); */
+    background-color: rgb(173 195 157);
+
 }
 
 .aside {
 /* background-color: rgb(152 177 134); */
-background-color:#b6c8a9 ;
+/* background-color:#b6c8a9 ; */
+
 display: none;
 z-index: 30;
 }
 
+.bside {
+background-color:#b6c8a9 ;
+
+}
+
 #intro {
-    background-image: url('img/shutterstock_396213982_9e88ef51ab.jpg');
+    /* background-image: url('img/leone-venter-VieM9BdZKFo-unsplash.jpg'); */
+    background-color: rgba(230, 213, 192, 0.636);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
+    background-size: contain;
+    background-position: left;
     
 }
 
@@ -69,6 +78,8 @@ z-index: 30;
 background-color:#b6c8a9 ;
 
 }
+
+
 
 
 @media only screen and (min-width:1024px) {
