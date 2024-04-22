@@ -50,14 +50,14 @@ body {
 .aside {
 /* background-color: rgb(152 177 134); */
 background-color:#b6c8a9 ;
-
+border-width: 2px;
+border-color: black;
 display: none;
 z-index: 30;
 }
 
 .bside {
 background-color:#b6c8a9 ;
-
 }
 
 #intro {
@@ -87,6 +87,7 @@ background-color:#b6c8a9 ;
         display: flex !important;
         max-width: 10rem;
         background-color: transparent;
+        border-width: 0px;
     }
     
 
